@@ -1,0 +1,17 @@
+🚀 Step-by-Step Installation
+1. Clone the Repository
+git clone https://github.com/olaiyayomi/Enterprise-Cloud-Integrated-Intrusion-Detection-System-IDS-.git
+cd Enterprise-IDS
+2. Set Up Virtual Environment & Dependencies
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+3. Environment Configuration
+Create a .env file or update your environment configurations to host your secure endpoints safely:
+TELEGRAM_BOT_TOKEN="your_secured_api_token_here"
+TELEGRAM_CHAT_ID="your_monitoring_channel_id"
+ALERT_COOLDOWN_SECONDS=15
+4. Running the Engine
+To launch the edge surveillance system on a local device stream or video archive:
+python src/main.py --source 0  # 0 for integrated webcam, or replace with 'path/to/video.mp4'
+
