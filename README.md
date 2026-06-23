@@ -1,0 +1,2 @@
+# Enterprise-Cloud-Integrated-Intrusion-Detection-System-IDS-
+An event-driven, edge-to-cloud physical security solution that integrates real-time computer vision threat detection with automated cloud notification pipelines. By moving inference to the local network edge, this system eliminates continuous cloud bandwidth consumption and delivers zero-latency security alerts upon verified perimeter breaches.
